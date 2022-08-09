@@ -39,7 +39,6 @@ const onGalleryItemClick = function (event) {
       if (e.code === "Escape") {
         instance.close();
       }
-      console.log(e);
     });
   });
 };
