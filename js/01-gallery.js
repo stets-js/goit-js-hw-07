@@ -35,7 +35,7 @@ const onGalleryItemClick = function (event) {
   `);
 
   instance.show(() => {
-    document.body.addEventListener("keydown", (e) => {
+    gallery.addEventListener("keydown", (e) => {
       if (e.code === "Escape") {
         instance.close();
       }
